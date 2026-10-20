@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/selma-lagerlof/the-emperor-of-portugallia/velma-swanston-howard</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-10-20T17:35:20Z</dc:date>
+		<meta property="dcterms:modified">2026-10-20T17:35:20Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -42,15 +42,15 @@
 		<meta property="schema:genre">Fiction</meta>
 		<meta property="schema:abstract">A proud but poor father is forced to cope with his daughter moving to the city.</meta>
 		<dc:description>
-			&lt;p&gt;Jan Andersson is a poor croft worker. The only thing that brings him joy is his daughter Glory, but when the family needs money, she moves to Stockholm to find a job. At first Jan is despondent, especially as she very quickly stops sending letters. As time goes on however, Jan begins to piece together what happened to Glory in Stockholm, though his conclusions differ wildly from everyone else’s.&lt;/p&gt;
+			&lt;p&gt;Jan Andersson is a poor crofter. The only thing that brings him joy is his daughter Glory, but when the family finds itself in need of money, she moves to Stockholm to look for a job. At first Jan is despondent, especially as Glory very quickly stops sending letters. But as time goes on, Jan begins to piece together what happened to Glory in Stockholm—though his conclusions differ wildly from everyone else’s.&lt;/p&gt;
 			&lt;p&gt;Blending family drama with social critique, &lt;a href="https://standardebooks.org/ebooks/selma-lagerlof"&gt;Selma Lagerlöf&lt;/a&gt; explores the ways in which community and generational relations can be affected by forces both beyond and within our control, and how redemption is possible, if we so choose.&lt;/p&gt;
-			&lt;p&gt;An early title that Lagerlöff considered was &lt;i&gt;A Swedish King Lear&lt;/i&gt;, alluding to the generational conflicts central to the both the novel and the play. Today &lt;i&gt;The Emperor of Portugallia&lt;/i&gt; is considered a classic of Swedish literature. There have been multiple adaptations, including the now lost 1925 Hollywood film &lt;i&gt;The Tower of Lies&lt;/i&gt;, and a 1992 series for Swedish public television.&lt;/p&gt;
+			&lt;p&gt;Lagerlöf considered titling the novel &lt;i&gt;A Swedish King Lear&lt;/i&gt;, alluding to the generational conflicts central to both the novel and the play. Today &lt;i&gt;The Emperor of Portugallia&lt;/i&gt; is considered a classic of Swedish literature, with multiple adaptations, including the now lost 1925 Hollywood film &lt;i&gt;The Tower of Lies&lt;/i&gt; and a 1992 series for Swedish public television.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/14356</dc:source>
 		<dc:source>https://archive.org/details/emperorofportuga00lage</dc:source>
-		<meta property="schema:wordCount">WORD_COUNT</meta>
-		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta property="schema:wordCount">62152</meta>
+		<meta property="schema:educationalLevel">78.79</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Emperor_of_Portugallia" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
@@ -83,6 +83,11 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">David Reimer</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Reimer, David</meta>
+		<link href="https://github.com/dajare" refines="#producer-2" rel="schema:url"/>
+		<link href="https://id.loc.gov/authorities/names/n92075987.html" refines="#producer-2" rel="schema:sameAs"/>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
